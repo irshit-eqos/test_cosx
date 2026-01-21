@@ -7,7 +7,7 @@ const assert = require('assert');
 function runTests() {
   const tests = [];
   let passed = 0;
-  let failed = 0;
+  let failed = 0
 
   // Helper to register tests
   function test(name, fn) {
